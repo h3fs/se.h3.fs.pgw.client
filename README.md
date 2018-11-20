@@ -5,6 +5,10 @@
 Detect available modules. This is used on boot to see witch modules are there.
 
     curl -X "GET http://pgw.labs.h3.se:8080/info/modules"
+    
+Get the logo for the module 
+
+    curl -X "GET http://pgw.labs.h3.se:8080/test/logo.png"
 
 Create a new payment request. This statement will return the state of the payment.
 including the id variable. Use this variable in future references.
